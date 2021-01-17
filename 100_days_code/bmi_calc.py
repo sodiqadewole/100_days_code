@@ -14,7 +14,7 @@ def calculate_bmi():
         message = "You are Obese"
     else:
         message = "You are clinically obese"
-    print("Your BMI is: {:.1f}".format(bmi))
+    print("Your BMI is: {:.2f}".format(bmi))
     print(message)
 
 if __name__ == '__main__':

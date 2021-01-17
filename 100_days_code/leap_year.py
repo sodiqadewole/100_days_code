@@ -3,9 +3,7 @@ def leap_year():
     year = int(input("Enter a year: "))
     if year % 4 == 0:
         if year % 100 == 0:
-            message = "This is not a leap year!"
             if year % 400 == 0:
-                message = "This is a leap year"
             else:
                 message = "This is not a leap year!"
         else:
