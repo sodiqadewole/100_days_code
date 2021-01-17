@@ -14,8 +14,8 @@ def banker_roulette():
             names.append(name)
 
 
-    to_pay = random.randint(0, len(names)-1)
-    print("{} will be paying the bill today".format(names[to_pay]))
+    to_pay = random.choice(names)
+    print("{} will be paying the bill today".format(to_pay))
 
 
 if __name__ == '__main__':
