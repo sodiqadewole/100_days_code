@@ -22,6 +22,7 @@ def hangman():
 
 
         else:
+            print(f"{char} is not in the word")
             life -= 1
         if life == 0:
             print("You loose!!!")
