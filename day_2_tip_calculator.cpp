@@ -16,6 +16,7 @@ int main(){
         cout << "$";
         cin >> bill;
     } while (bill <= 0 or isnan(bill));
+    // cout << typeid(bill).name() << endl;
 
     // Take the number of persons and check for negative values
     do{
@@ -23,6 +24,7 @@ int main(){
         cout << "Enter at least 1 person to get the bill ";
         cin >> persons;
     } while (persons <= 0 or isnan(persons));
+    // cout << typeid(persons).name() << endl;
     
     do{
         cout << "What percentage tip would you like to give? 10, 12, or 15? ";
