@@ -35,15 +35,11 @@ int main()
     // cout << "Enter your partner's name: ";
     // cin >> partner_name;
 
-    // Loop through the entered user name
+    // Get the score for each character
     t = get_count(user_name, 't');
-    // cout << "t has a score " << t << endl;
     r = get_count(user_name, 'r');
-    // cout << "r has a score " << r << endl;
     u = get_count(user_name, 'u');
-    // cout << "u has a score " << u << endl;
     e = get_count(user_name, 'e');
-    // cout << "e has a score " << e << endl;
 
     true_score = t + r + u + e;
 
